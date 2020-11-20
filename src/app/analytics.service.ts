@@ -16,6 +16,7 @@ export class AnalyticsService {
 ga('send', 'event', {
 eventCategory,
 eventLabel,
+eventAction,
 eventValue
 });
  }
